@@ -1,0 +1,3 @@
+# Node.js Unhandled Exception Example
+
+This repository demonstrates a common error in Node.js: unhandled exceptions in HTTP servers.  The `bug.js` file contains a server that throws an unhandled exception when a specific URL is requested. This causes the server to crash without any graceful handling.  The `bugSolution.js` file demonstrates the proper way to handle such exceptions using error handling.
